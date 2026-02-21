@@ -2,7 +2,7 @@
 
 **RomaPy** is *not just another Python project* — it’s a Python performance revolution.
 
-RomaPy adapts Python into **compiled machine code on the fly (JIT)** using LLVM, obliterating the traditional “Python tax” and delivering performance that even outpaces native Rust in key math workloads. Stay in Python, keep developer productivity — but run at speeds most compiled languages can only dream of. :contentReference[oaicite:1]{index=1}
+RomaPy adapts Python into **compiled machine code on the fly (JIT)** using LLVM, obliterating the traditional “Python tax” and delivering performance that even outpaces native Rust in key math workloads. Stay in Python, keep developer productivity — but run at speeds most compiled languages can only dream of.
 
 ---
 
