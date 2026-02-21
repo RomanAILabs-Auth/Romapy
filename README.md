@@ -9,7 +9,7 @@
 
 RomaPy adapts Python into **compiled machine code on the fly (JIT)** using LLVM, obliterating the traditional âPython taxâ and delivering performance that even outpaces native Rust in key math workloads. Stay in Python, keep developer productivity â but run at speeds most compiled languages can only dream of.
 
-- **Blazing Fast**: Up to 36Ã faster than Rust in hotspots like vector math and numerics.
+- **Blazing Fast**: Up to 36X faster than Rust in hotspots like vector math and numerics.
 - **Seamless Integration**: Zero code changes required â just decorate and accelerate.
 - **Hybrid Power**: Combines Numba JIT, Rust FFI, GPU/TPU support, and ML-driven optimizations for ultimate domination.
 
@@ -117,10 +117,10 @@ RomaPy is designed to accelerate heavy numeric workloads without rewriting them:
 
 | Workload Type          | Standard Python | RomaPy JIT | Speedup   |
 |------------------------|-----------------|------------|-----------|
-| Vector Math Loop      | ~60s           | ~0.32s    | ~180Ã    |
-| LLM Startup Latency   | ~6.05s         | ~2.07s    | ~3Ã      |
-| Fibonacci Sequence    | ~0.0836s       | ~0.0025s  | ~33Ã     |
-| Matrix Multiplication | ~1.2s          | ~0.03s    | ~40Ã     |
+| Vector Math Loop      | ~60s           | ~0.32s    | ~180X        |
+| LLM Startup Latency   | ~6.05s         | ~2.07s    | ~3X          |
+| Fibonacci Sequence    | ~0.0836s       | ~0.0025s  | ~33X         |
+| Matrix Multiplication | ~1.2s          | ~0.03s    | ~40X         |
 
 *(Actual results depend on hardware and code patterns. Tested on Intel i9 with NVIDIA RTX 3080. RomaPy often beats Rust in hybrid scenarios due to dynamic optimization.)*
 
