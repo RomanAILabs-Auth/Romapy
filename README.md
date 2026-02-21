@@ -27,6 +27,9 @@ RomaPy provides a powerful alternative for developers who need speed without the
 * [cite_start]**Rust-Level Execution:** Accelerated functions run at speeds comparable to raw C++ or Rust implementations.
 * [cite_start]**Zero-Cost Abstractions:** Maintain Python’s memory safety while the engine handles hardware-level vectorization and optimization.
 
+
+TO RUN simply romapy filename.py
+
 ---
 
 ## ⚡ Quick Start
