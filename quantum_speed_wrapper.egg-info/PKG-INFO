@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: quantum_speed_wrapper
+Version: 1.0.0
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: joblib
+Requires-Dist: psutil
+Requires-Dist: tqdm
+Requires-Dist: python-dotenv
+Requires-Dist: prometheus-client
+Dynamic: requires-dist

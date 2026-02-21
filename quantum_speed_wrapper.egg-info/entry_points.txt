@@ -1,0 +1,2 @@
+[console_scripts]
+romapy = quantum_speed_wrapper.core:cli_wrapper_main

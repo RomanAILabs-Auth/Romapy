@@ -1,0 +1,9 @@
+setup.py
+quantum_speed_wrapper/__init__.py
+quantum_speed_wrapper/core.py
+quantum_speed_wrapper.egg-info/PKG-INFO
+quantum_speed_wrapper.egg-info/SOURCES.txt
+quantum_speed_wrapper.egg-info/dependency_links.txt
+quantum_speed_wrapper.egg-info/entry_points.txt
+quantum_speed_wrapper.egg-info/requires.txt
+quantum_speed_wrapper.egg-info/top_level.txt
