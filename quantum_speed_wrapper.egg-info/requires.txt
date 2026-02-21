@@ -1,7 +1,0 @@
-numba
-numpy
-joblib
-psutil
-tqdm
-python-dotenv
-prometheus-client
