@@ -1,0 +1,9 @@
+setup.py
+quantum_speed_wrapper/__init__.py
+quantum_speed_wrapper/core.py
+romapy.egg-info/PKG-INFO
+romapy.egg-info/SOURCES.txt
+romapy.egg-info/dependency_links.txt
+romapy.egg-info/entry_points.txt
+romapy.egg-info/requires.txt
+romapy.egg-info/top_level.txt
