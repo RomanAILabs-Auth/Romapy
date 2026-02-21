@@ -1,7 +1,6 @@
 import numpy as np
 import time
 
-# Initialize RomaPy speed boost
 accelerate = speed_wrap()
 
 @accelerate
