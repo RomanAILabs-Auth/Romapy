@@ -115,12 +115,13 @@ This will auto-detect, compile, and accelerate hotspots seamlessly.
 
 RomaPy is designed to accelerate heavy numeric workloads without rewriting them:
 
-| Workload Type          | Standard Python | RomaPy JIT | Speedup   |
-|------------------------|-----------------|------------|-----------|
-| Vector Math Loop      | ~60s           | ~0.32s    | ~180X        |
-| LLM Startup Latency   | ~6.05s         | ~2.07s    | ~3X          |
-| Fibonacci Sequence    | ~0.0836s       | ~0.0025s  | ~33X         |
-| Matrix Multiplication | ~1.2s          | ~0.03s    | ~40X         |
+| Workload Type         | Standard Python | RomaPy JIT    | Speedup  |
+| --------------------- | --------------- | ------------- | -------- |
+| Vector Math Loop      | ~60s            | ~0.5–1.2s     | ~50–120× |
+| LLM Startup Latency   | ~6.0s           | ~5.8–6.0s     | ~1.0×    |
+| Fibonacci Sequence    | ~0.08s          | ~0.003–0.006s | ~15–30×  |
+| Matrix Multiplication | ~1.2s           | ~0.08–0.15s   | ~8–15×   |
+
 
 *(Actual results depend on hardware and code patterns. Tested on Intel i9 with NVIDIA RTX 3080. RomaPy often beats Rust in hybrid scenarios due to dynamic optimization.)*
 
