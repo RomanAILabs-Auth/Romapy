@@ -5,53 +5,63 @@
 [![GitHub stars](https://img.shields.io/github/stars/RomanAILabs-Auth/Romapy?style=social)](https://github.com/RomanAILabs-Auth/Romapy)
 [![Twitter Follow](https://img.shields.io/twitter/follow/RomanAILabs?style=social)](https://twitter.com/RomanAILabs)
 
-**RomaPy** is *not just another Python project* â itâs a Python performance revolution.
+RomaPy is not just another Python project — it’s a Python performance accelerator.
 
-RomaPy adapts Python into **compiled machine code on the fly (JIT)** using LLVM, obliterating the traditional âPython taxâ and delivering performance that even outpaces native Rust in key math workloads. Stay in Python, keep developer productivity â but run at speeds most compiled languages can only dream of.
+RomaPy adapts numeric-heavy Python code into compiled machine code at runtime (JIT) using LLVM, dramatically reducing the traditional “Python tax” in tight loops and math-heavy workloads. Stay in Python, keep developer productivity — but execute critical paths at near-native speed when possible.
 
-- **Blazing Fast**: Up to 36X faster than Rust in hotspots like vector math and numerics.
-- **Seamless Integration**: Zero code changes required â just decorate and accelerate.
-- **Hybrid Power**: Combines Numba JIT, Rust FFI, GPU/TPU support, and ML-driven optimizations for ultimate domination.
+Blazing Fast: Achieves 10×–100× speedups over naïve Python in numeric and loop-heavy hotspots.
 
-Python ease + compiled speed = ð
----
+Seamless Integration: Minimal code changes — just decorate and accelerate supported functions.
 
-## ð¡ Why RomaPy Exists
+Hybrid Power: Built on Numba JIT (LLVM-backed) with optional native extensions and accelerator support when explicitly configured.
 
-Python is everywhere â but raw performance is often its Achillesâ heel. RomaPy bridges the gap:
-    Write Python code as usual  
-- âï¸ RomaPy compiles heavy functions at runtime  
-- ð LLVM optimizes execution  
-- ð Get **machine-level performance** without leaving Python  
-- â Hit *20â180Ã+ speedups* in compute-intensive code paths in benchmarks
+Python ease + compiled speed = 🚀
+🔥 Why RomaPy Exists
 
-Whether you're battling slow loops in simulations or optimizing AI pipelines, RomaPy turns Python into a performance beast â without the hassle of rewriting in C++ or Rust.
+Python is everywhere — but raw performance is often its Achilles’ heel. RomaPy bridges the gap:
 
----
+✍️ Write Python code as usual
 
-## ð Key Features
+⚡ RomaPy JIT-compiles heavy functions at runtime
 
-### â Just-In-Time Compilation
-RomaPy detects hot math and logic paths and compiles them to native instructions instantly via Numba (LLVM-backed).
+🧠 LLVM optimizes execution paths
 
-### ð Zero Code Modifications
-No need to rewrite functions in C, Rust, or Ninja-level magic. RomaPy works with your Python code â just add a decorator.
+🚀 Get near-native performance without leaving Python
 
-### ð Benchmark-Driven
-Built for *real performance* â not micro-benchmarks:
-- Up to **36Ã faster than Rust** in certain hotspots
-- Massive gains in loops, vector math, numerics, and accelerators
-- Adaptive ML selects the best strategy (JIT, parallel, Rust offload, GPU/TPU)
+📈 Hit 20×–100× speedups in compute-intensive code paths (when patterns are JIT-friendly)
 
-### ð Smart Fallback
-If a function canât be JIT-compiled, RomaPy gracefully runs it at normal Python speed â *no crashes*.
+Whether you’re battling slow loops in simulations or optimizing numeric pipelines, RomaPy helps you push Python further — without immediately rewriting everything in C++ or Rust.
 
-### ð Production-Ready
-- Docker support for easy deployment
-- Prometheus metrics for monitoring
-- Extensive unit tests with 95%+ coverage
-- Secure Rust integration with timeouts and sanitization
+🚀 Key Features
+⚙️ Just-In-Time Compilation
 
+RomaPy targets numeric and loop-heavy functions and compiles them to native machine code using Numba (LLVM-backed).
+
+🧩 Minimal Code Modifications
+
+No need to rewrite functions in C or Rust. RomaPy works with existing Python code — add a decorator and keep your workflow.
+
+📊 Benchmark-Driven
+
+Designed for real-world numeric workloads, not toy examples:
+
+Large gains in tight loops, vector math, numerics
+
+Best results when Python overhead dominates
+
+Falls back safely when code can’t be JIT-compiled
+
+🛡️ Smart Fallback
+
+If a function can’t be compiled, RomaPy automatically runs it at normal Python speed — no crashes, no surprises.
+
+🧪 Production-Friendly
+
+Works inside existing Python environments
+
+Deterministic behavior (no speculative rewrites)
+
+Clear boundaries between accelerated and normal code paths
 ---
 
 ## ð¦ Installation
