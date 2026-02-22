@@ -212,4 +212,4 @@ Stop choosing between Python productivity and compiled performance. With RomaPy,
 
 Made with passion by RomanAI Labs. Join the revolution: Star, fork, and accelerate your world!
 
-[ð Visit RomanAI Labs](https://romanailabs.com) | [ð Follow on Twitter](https://twitter.com/RomanAILabs) | [ð§ Contact Us](mailto:contact@romanailabs.com)
+[ð Visit RomanAI Labs](https://romanailabs.com) | [ð Follow on Twitter](https://twitter.com/RomanAILabs) | [ð§ Contact Us](mailto:daniel@romanailabs.com)
